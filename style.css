@@ -255,25 +255,38 @@ header .branding {
  }
   
 
-h1 {margin: 1em 0 0.7em 0.3em;
+h1 {margin: 1rem 0 0.7rem 0.3rem;
 line-height: 1.2;
 }
 
-h2 {margin: 2em 0 2em 0;}
-
-h3 {margin: 2em 0 2em 0;}
-
-h2 + h3 {
-	margin: 0rem 0 1rem 0;
+h2 {margin: 3rem 0 0.5rem 0;
 }
 
-h4 {margin: 2em 0 2em 0;}
+h3 {margin: 2rem 0 1rem 0;}
 
-h5 {margin: 2em 0 2em 0;}
+h2 + h3 {
+	margin: 0rem 0 0.5rem 0;
+}
 
-h6 {margin: 2em 0 2em 0;}
+h4 {margin: 2rem 0 1rem 0;}
 
-p {margin: 0 0 1em 0;}
+h5 {margin: 2rem 0 1rem 0;}
+
+h6 {margin: 2rem 0 1rem 0;}
+
+p {margin: 0 0 1rem 0;}
+
+ul {
+	list-style-type: circle;
+	margin-left: 2rem;
+}
+
+
+ol {
+	list-style-type: decimal;
+	margin-left: 2rem;
+}
+
 
 
 
